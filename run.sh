@@ -18,7 +18,7 @@ build_img() {
 
 push_img() {
 
-	docker push ${REPO_USER}:${VER}
+	docker push ${REPO_USER}:${VERSION}
 }
 
 __main() {
